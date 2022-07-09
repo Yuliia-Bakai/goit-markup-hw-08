@@ -1011,7 +1011,8 @@ img {
     width: 358px;
   }
 }
-.subscribe-form__input__input:focus {
+
+.subscribe-form__input:focus {
   border: 2px solid var(--brend-color);
 }
 

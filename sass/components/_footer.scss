@@ -127,12 +127,12 @@
     outline: transparent;
     @include desktop{
         margin-bottom: 0;
-        width: 358px;}
+        width: 358px;}}
 
-&__input:focus {
+.subscribe-form__input:focus {
     border: 2px solid var(--brend-color);
 }
-}
+
 .subscribe-btn {
     display: flex;
     align-items: center;
