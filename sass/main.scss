@@ -1,0 +1,23 @@
+@import "./utils/vars";
+@import "./utils/mixins";
+
+@import "./base/reset";
+
+@import "./components/container";
+@import "./components/header";
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/contacts";
+@import "./components/soc";
+
+@import "./layout/basic";
+@import "./layout/benefits";
+@import "./layout/button";
+@import "./layout/about";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/button";
+@import "./layout/project";
+
+@import "./components/footer";
+@import "./components/modal";

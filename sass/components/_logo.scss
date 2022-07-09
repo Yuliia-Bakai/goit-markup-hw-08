@@ -1,0 +1,27 @@
+.logo {
+    color: var(--main-title-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    @include desktop {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    }
+
+
+&__part {
+    color: var(--brend-color);
+}
+
+&--style {
+    color: #000000;
+}
+
+&--footer {
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+}

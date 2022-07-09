@@ -1,0 +1,128 @@
+
+.header {
+    border-bottom: 1px solid #ececec;
+
+
+&__conteiner {
+    display: flex;
+    align-items: center;
+}
+}
+
+.menu-open-btn,
+.menu-close-btn {
+    display: block;
+    margin-left: auto;
+    border: 0;
+    background-color: transparent;
+}
+
+.menu-open-btn {
+    @include tablet {
+        display: none;
+    }
+}
+
+.menu-close-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+
+.menu-open-btn:focus,
+.menu-close-btn:focus,
+.menu-open-btn:hover,
+.menu-close-btn:hover {
+    fill: var(--brend-color);
+}
+
+.mob-menu {
+    z-index: 2;
+
+    @include tablet {
+        display: none;
+    }
+
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 25px;
+
+    &__link {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+    color: var(--main-title-color);
+
+    &.link.current {
+    color: var(--brend-color);
+        }
+    }
+
+    &__item {
+    margin-bottom: 32px;
+    }
+
+    & .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow-y: auto;
+    }
+}
+
+.mob-menu-contacts {
+    margin-bottom: 64px;
+
+    &__tel {
+    display: block;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--brend-color);
+    }
+
+    &__mail {
+    display: block;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16;
+    color: var(--second-title-color);
+    margin-top: 32px;
+    }
+}
+
+.mob-menu-soc {
+    display: flex;
+
+    &__link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: var(--brend-color);
+    }
+
+    &__item {
+        padding-left: 10px;
+
+    &:not(:last-child) {
+        padding-right: 10px;
+        border-right: 1px solid rgba(33, 33, 33, 0.2);
+        }
+
+    &:first-child {
+        padding-left: 0;
+        }
+    }
+}
