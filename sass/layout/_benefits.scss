@@ -1,7 +1,9 @@
 .benefits {
-    padding-top: 94px;
     padding-bottom: 60;
     text-align: left;
+    @include desktop {
+    padding-top: 94px;
+    }
 
 
 &__list {
