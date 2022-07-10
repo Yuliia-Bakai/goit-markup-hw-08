@@ -878,7 +878,6 @@ img {
   .projects__list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
   }
 }
 .projects__item {
