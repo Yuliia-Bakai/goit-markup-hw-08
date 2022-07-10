@@ -4,9 +4,16 @@
     border-bottom: 1px solid #ececec;
 
 
-&__conteiner {
+&__container {
     display: flex;
     align-items: center;
+    height: 60px;
+    @include tablet {
+        height: 80px;
+    }
+    @include desktop {
+        height: 80px;
+    }
 }
 }
 
