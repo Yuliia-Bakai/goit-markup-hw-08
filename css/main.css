@@ -32,6 +32,13 @@ img {
   padding: 60px 0 60px 0;
 }
 
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+}
+
 .list {
   list-style: none;
 }
@@ -487,7 +494,6 @@ img {
 }
 
 .benefits {
-  padding-top: 94px;
   padding-bottom: 60;
   text-align: left;
 }
@@ -885,7 +891,6 @@ img {
   .projects__list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
   }
 }
 .projects__item {
